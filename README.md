@@ -6,8 +6,8 @@ Setup:
 
 ```sh
 docker-compose build
-docker-compose run -u root backend bundle
 docker-compose run frontend yarn
+docker-compose run -u root backend bundle
 docker-compose run backend bin/rails db:create
 docker-compose run backend bin/rails db:migrate
 ```
