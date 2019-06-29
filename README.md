@@ -12,7 +12,7 @@ docker-compose run backend bin/rails db:create
 docker-compose run backend bin/rails db:migrate
 ```
 
-Rename example.local_env.yml to local_env.yml and put in your Twilio API credentials in backend/config
+In backend/config rename example.local_env.yml to local_env.yml and put in your Twilio API credentials.
 
 Start:
 
